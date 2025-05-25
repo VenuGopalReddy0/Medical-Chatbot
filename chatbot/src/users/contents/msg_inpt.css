@@ -1,0 +1,55 @@
+/*msg_inpt.css*/
+.message-input {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  left: 40px;
+  right: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.message-textarea {
+  flex: 1;
+  resize: vertical; /* Allow vertical resizing */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  max-height: 53px;
+  min-height: 10px; /* Set a minimum height */
+  overflow: auto; /* Allow scrolling within the textarea */
+  scrollbar-width: none; /* For Firefox */
+}
+
+/* Hide scrollbar arrows for Webkit browsers (Chrome, Safari) */
+.message-textarea::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Optional: make scrollbar track invisible */
+}
+
+.message-textarea::-webkit-scrollbar-thumb {
+  background: transparent; /* Optional: make scrollbar thumb invisible */
+}
+
+.message-input button {
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(74, 94, 177);
+  padding: 10px;
+  height: 53px;
+  width: 50px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button {
+  font-size: 1.5rem;
+  color: white;
+}

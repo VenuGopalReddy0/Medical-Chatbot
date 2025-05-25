@@ -1,0 +1,22 @@
+/*PopUp.css*/
+.spprim {
+  margin-right: 10px;
+  background-color: rgb(65, 69, 201) !important;
+  border: none;
+}
+
+.spprim:hover {
+  background-color: rgb(53, 177, 39);
+}
+
+.modal-content {
+  background-color: rgb(219, 211, 209) !important;
+}
+
+.modal-body {
+  color: black;
+}
+
+.modal-body-custom p {
+  color: black !important;
+}
