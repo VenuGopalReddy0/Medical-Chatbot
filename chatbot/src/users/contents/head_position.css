@@ -1,0 +1,75 @@
+/*head_position.css*/
+.icon_img_dim {
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  top: 0%;
+  left: 15px; /* Align with the padding of the header */
+  user-select: none; /* Prevent selection of the image */
+}
+
+.outerborder_head {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(50, 47, 47);
+  position: fixed;
+  height: 13%;
+  user-select: none; /* Prevent text selection in header */
+  pointer-events: none; /* Prevent any pointer events on this element */
+}
+
+.icon_pos_head {
+  padding: 15px;
+  pointer-events: auto; /* Re-enable pointer events for this child */
+}
+
+.heading_text_sty {
+  margin-left: 80px;
+  pointer-events: auto; /* Re-enable pointer events for this child */
+}
+
+.info_details {
+  position: fixed;
+  right: 10%;
+  display: flex;
+  flex-direction: row;
+  top: 3%;
+  width: auto;
+  pointer-events: auto; /* Re-enable pointer events for this child */
+}
+
+.abt_us_info, .contact_us_info {
+  font-weight: bold;
+  font-size: large;
+}
+
+.abt_us_info {
+  margin-right: 10px;
+}
+.stle
+  {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+.contact_us_info {
+  margin-left: 10px;
+  background-color: rgb(85, 0, 255);
+}
+.clear_chat_button {
+  margin-left: 10px;
+  background-color: rgb(65, 69, 201);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: large;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.clear_chat_button:hover {
+  background-color: rgb(216, 17, 17);
+}
+p,h3{
+  color: white;
+}

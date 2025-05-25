@@ -1,0 +1,22 @@
+/*App.css*/
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0 ;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 100px; /* Height of the header */
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 90%; /* Maximum width for larger screens */
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden; /* Ensure the main content doesn't scroll */
+}
